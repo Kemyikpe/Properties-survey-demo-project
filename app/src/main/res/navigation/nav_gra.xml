@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gra"
+    app:startDestination="@id/id_homeFragment2">
+
+    <fragment
+        android:id="@+id/id_homeFragment2"
+        android:name="com.ekemini.fragment.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_fragment" />
+    <fragment
+        android:id="@+id/id_searchFragment2"
+        android:name="com.ekemini.fragment.SearchFragment"
+        android:label="Search Result"
+        tools:layout="@layout/fragment_search__result" />
+    <fragment
+        android:id="@+id/id_propertyDetails"
+        android:name="com.ekemini.fragment.PropertyDetails"
+        android:label="Property Detail"
+        tools:layout="@layout/fragment_property_details" />
+    <fragment
+        android:id="@+id/id_emailAgent"
+        android:name="com.ekemini.fragment.EmailAgent"
+        android:label="Email Agent"
+        tools:layout="@layout/fragment_email_agent" />
+</navigation>

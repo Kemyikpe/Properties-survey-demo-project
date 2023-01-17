@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_homeFragment2"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/id_searchFragment2"
+        android:title="Search"
+        android:icon="@drawable/search_icon"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/id_propertyDetails"
+        android:title="Property Details"
+        android:icon="@drawable/builing1"
+        android:checkable="true"/>
+
+    <item
+        android:id="@+id/id_emailAgent"
+        android:title="Email Agent"
+        android:icon="@drawable/email_icon"
+        android:checkable="true"/>
+</menu>
